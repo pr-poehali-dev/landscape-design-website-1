@@ -19,8 +19,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'display': ['Playfair Display', 'serif'],
-				'sans': ['Inter', 'system-ui', 'sans-serif'],
+				'display': ['Cormorant Garamond', 'serif'],
+				'sans': ['Source Sans Pro', 'system-ui', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -66,12 +66,30 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				forest: {
-					DEFAULT: '#2C5530',
-					light: '#8B7355'
+				'sage': {
+					50: '#f6f7f3',
+					100: '#e9ebe3',
+					200: '#d3d8c9',
+					300: '#b5c0a7',
+					400: '#97a582',
+					500: '#7b8a64',
+					600: '#606d4f',
+					700: '#4c5740',
+					800: '#3e4735',
+					900: '#363d2f',
 				},
-				cream: '#F5F2E8',
-				bronze: '#8B7355'
+				'moss': {
+					50: '#f3f6f1',
+					100: '#e2ebe0',
+					200: '#c8d7c2',
+					300: '#a4bd9b',
+					400: '#7d9f71',
+					500: '#5f8352',
+					600: '#4a6840',
+					700: '#3c5335',
+					800: '#32442d',
+					900: '#2a3926',
+				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
